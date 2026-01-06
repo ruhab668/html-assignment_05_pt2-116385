@@ -6,6 +6,9 @@ body {
   background-position: center top;
   background-repeat: no-repeat;
   min-height: 100vh;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
 }
 
 .navigator {
@@ -839,3 +842,4 @@ hr {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
 }
+
